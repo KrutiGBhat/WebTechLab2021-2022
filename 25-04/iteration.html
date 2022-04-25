@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square</title>
+    
+</head>
+<body>
+    <script>
+        function fun(){
+            var c1 = prompt("Enter the number");
+            var c2="";
+            var c3="0";
+            for(var x=1;x<=c1;x++)
+            {
+                c3=x*x;
+                c2=c2 + " " + x + "-"+ c3+"\n";
+            }
+        alert(c2);    
+        }
+    </script>
+    <h1>Square of given numbers</h1>
+    <button onclick="fun()">Input</button>
+    
+    
+</body>
+</html>
