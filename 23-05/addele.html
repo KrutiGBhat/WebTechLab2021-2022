@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Add element to an existing array:</h3>
+   <script>
+       const arr =[];
+       var size = prompt("enter the size");
+       for(let i=0;i<size;i++)
+        {
+            arr[i]=prompt('Enter array elements' + (i+1));
+           
+        }
+        var pos = prompt("enter the position where element to be added");
+        var key = prompt("enter th element to be added");
+        arr[pos-1]=key;
+        for(let j=0;j<size;j++){
+            if(arr[j]== undefined)
+            {
+                a[j]= "undefined";
+            }
+        }
+        for(let i=0;i<arr.length;i++)
+        {
+            document.write(arr[i]+ " ");
+        }
+   </script>
+ 
+</body>
+</html>
